@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    color: white;
+}
+
+.container{
+    padding: 15px;
+}
+
+h1 {
+    margin: 50px 0 30px 0;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    background-color: color-mix(in oklab, black 50%, purple 50%);
+}
+
+#search_field {
+    height: 32px;
+    width: 280px;
+    font-size: 20px;
+    border: none;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+#search_btn:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+}
